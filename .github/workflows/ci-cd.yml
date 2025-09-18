@@ -45,6 +45,6 @@ jobs:
           context: .
           push: true
           tags: |
-            ghcr.io/pmzonesite/dockerLab:latest 
-            ghcr.io/pmzonesite/dockerLab:${{github.sha}} 
+            ghcr.io/pmzonesite/dockerlab:latest 
+            ghcr.io/pmzonesite/dockerlab:${{github.sha}} 
 
