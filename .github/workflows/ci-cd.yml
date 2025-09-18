@@ -43,8 +43,8 @@ jobs:
         uses: docker/build-push-action@v5
         with:
           context: .
-            push: true
-            tags: |
-              ghcr.io/${{github.repository_owner}}/dockerLab:latest 
-              ghcr.io/${{github.repository_owner}}/dockerLab:${{github.sha}} 
+          push: true
+          tags: |
+            ghcr.io/${{github.repository_owner}}/dockerLab:latest 
+            ghcr.io/${{github.repository_owner}}/dockerLab:${{github.sha}} 
 
