@@ -55,7 +55,7 @@ jobs:
 
       steps:
       - name: Deploy to Render
-          run: |
+        run: |
           curl -s -X POST \
               -H "Authorization: Bearer ${{ secrets.RENDER_API_KEY }}" \
               -H "Content-Type: application/json" \
